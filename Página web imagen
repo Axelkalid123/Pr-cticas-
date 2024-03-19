@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- seccion navbar menu navegacion-->
+    <section id="menu">
+        <div id="barra de nabegacion">
+            <ul>
+                <li>inicio</li>
+                <li>
+                    <a href="somos.html" target="_blank">
+                        somos
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    proyectos
+                    </a>
+                </li>
+                <li>
+                    <a href="contacto.html" target="_blank">
+                    contacto
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!--termina el menu de navegacion-->
+    <!--inicia texto nosotros-->
+    <section id="nosotros">
+        <div id="parrafo">
+            <h1>hola</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque provident culpa dignissimos perferendis 
+                in magni illo, iusto porro, quidem similique, natus sed ratione explicabo veniam ad? Illum non eum unde. </p>
+        </div>
+        <div id="imagen">
+            <img src="img/img1.jpg"alt="robot" class="imagen">
+            <h1>imagen</h1>
+        </div>
+    </section>
+    <!--termina texto nosotros-->
+    <!--inicia estilo css-->
+    <style>
+        #menu{
+            background-color: rgb(228, 3, 21);
+            color: #fff;
+        }
+        #nosotros{
+            background-color: blueviolet;
+        }
+        #imagen{
+            background-color: cadetblue;
+        }
+        .imagen{
+            background-color: brown;
+            border-radius: 50%;
+            width: 200px;
+            height: 400px;
+        }
+        .imagen:hover{
+            width: ;
+        }
+    </style>
+</body>
+</html>
