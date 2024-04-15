@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--coloca el arcivo css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>formulario</title>
+</head>
+<body>
+    <div class="caja">
+     <h1 class="texto">Registro</h1>
+     <form action="">
+        <input type="text" name="nombre" id="nombre" class="cajatexto" placeholder="nombre">
+        <input type="text" name="apellido" id="apellido" class="cajatexto" placeholder="apellido">
+        <input type="text" name="fecha" id="fecha" class="cajatexto" placeholder="fecha">
+        <label for="fecha">fecha de nacimiento</label>
+        <input type="date" name="registro" id="registro">
+        <button onclick="recuperar();" class="btn">registrara</button>
+     </form>   
+    </div>
+    <script>
+        function recuperar(){
+            var nos= document.getElementById("nombre").evalue;
+            var nos= document.getElementById("apellido").evalue;
+            var nos= document.getElementById("fecha de nacimiento").evalue;
+            alert("hola como te va:+ nom")
+        }
+    </script>
+</body>
+</html>
+
+
+
+body{
+    background-color: blue;
+}
+.caja{
+    margin-top:120px;
+    width:100% ;
+    height:400px;
+    align-content:center ;
+    background-color: blueviolet;
+    background-color: crimson;
+    border:2px solid;
+}
+.texto{
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+    text-align: center;
+}
+.cajatexto{
+    width: 50%;
+    height: 20px;
+    padding: auto;
+    background: turquoise;
+    border:1px solid #fff ;
+}
+.cajafecha{
+    width: 50%;
+    height: 20px;
+    padding: auto;
+    background:transparent ;
+    border: 1px solid #fff ;
+}
+.btn{
+    width: 100%;
+    height: 20px;
+    padding: auto;
+    background: fuchsia;
+    border: #fff;
+}
